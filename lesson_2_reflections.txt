@@ -1,0 +1,22 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git file is created which means the repository is ready to be staged. It changes the directory to a git repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+Staging area is the part of git and it shows that the current directory is ready to be add to git. Working directory may or may not be a part of git and repository is created once the git is initialised. Staging makes our working directory a ready to be commited directory as git repository.
+
+http://udacity.github.io/git-styleguide/
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
