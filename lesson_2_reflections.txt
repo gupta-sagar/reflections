@@ -9,14 +9,19 @@ http://udacity.github.io/git-styleguide/
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+The change can be added from working directory to staging area to make it ready to be commited. This can be checked using commands 'git diff' and 'git diff --staged'.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+While creating different versions of the program will help to keep all versions intact with branches. Or adding new brach for new feature.
 
 How do the diagrams help you visualize the branch structure?
+It makes it easy to understand which brach is part of our current structure and how branches are accessible from the current working branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+It helps different collaborators to keep the cide updated with each other. To make it simpler to understand.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Automatic merging is fast and simple to implement with just one command 'git merge branch1 branch2'. It automatically handles code differences but is not able to resolve logical differences or conflicts.
